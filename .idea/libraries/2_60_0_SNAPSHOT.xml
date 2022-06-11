@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.60.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/snapshots/fun/lifeupapp/bravh/2.60.0-SNAPSHOT/bravh-2.60.0-20220203.093958-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/snapshots/fun/lifeupapp/bravh/2.60.0-SNAPSHOT/bravh-2.60.0-20220203.093958-1-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="3.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/snapshots/fun/lifeupapp/colorful/3.0.1-SNAPSHOT/colorful-3.0.1-20220128.164516-1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/snapshots/fun/lifeupapp/colorful/3.0.1-SNAPSHOT/colorful-3.0.1-20220128.164516-1-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
