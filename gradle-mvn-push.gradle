@@ -85,15 +85,27 @@ afterEvaluate { project ->
                     // A slightly hacky fix so that your POM will include any transitive dependencies
                     // that your library builds upon
                     pom.withXml {
-                        def dependenciesNode = asNode().appendNode('dependencies')
-                        def deps = configurations.implementation.allDependencies + configurations.api.allDependencies
-                        deps.each {
-                            if (it.group != null && (it.name != null || "unspecified".equals(it.name)) && it.version != null && !"unspecified".equals(it.version)) {
-                                def dependencyNode = dependenciesNode.appendNode('dependency')
-                                dependencyNode.appendNode('groupId', it.group)
-                                dependencyNode.appendNode('artifactId', it.name)
-                                dependencyNode.appendNode('version', it.version)
+                        Node root = asNode()
+                        Node dependenciesNode = root["dependencies"][0] ?: root.appendNode("dependencies")
+                        project.configurations.implementation.allDependencies.each {
+                            if("unspecified".equals(it.version)) {
+                                Node newNode = dependenciesNode.appendNode("dependency")
+                                newNode.appendNode('groupId', GROUP)
+                                newNode.appendNode('artifactId', it.name)
+                                newNode.appendNode('version', VERSION_NAME)
+                                //root.remove(it)
                             }
+                        }
+                        List<Node> nodes = new ArrayList()
+                        dependenciesNode.iterator().forEachRemaining{
+                            Node node = it
+                            println("node version: " + node.get("version")?.text())
+                            if(node.get("version")?.text() == "unspecified") {
+                                nodes.add(node)
+                            }
+                        }
+                        nodes.each {
+                            dependenciesNode.remove(it)
                         }
                     }
 //                    withXml {
