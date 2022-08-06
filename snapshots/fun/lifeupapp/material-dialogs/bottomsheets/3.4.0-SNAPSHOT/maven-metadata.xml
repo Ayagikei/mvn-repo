@@ -5,32 +5,32 @@
   <version>3.4.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220806.135047</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20220806.135744</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20220806135047</lastUpdated>
+    <lastUpdated>20220806135744</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>3.4.0-20220806.135047-1</value>
-        <updated>20220806135047</updated>
+        <value>3.4.0-20220806.135744-2</value>
+        <updated>20220806135744</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>3.4.0-20220806.135047-1</value>
-        <updated>20220806135047</updated>
+        <value>3.4.0-20220806.135744-2</value>
+        <updated>20220806135744</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>3.4.0-20220806.135047-1</value>
-        <updated>20220806135047</updated>
+        <value>3.4.0-20220806.135744-2</value>
+        <updated>20220806135744</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>3.4.0-20220806.135047-1</value>
-        <updated>20220806135047</updated>
+        <value>3.4.0-20220806.135744-2</value>
+        <updated>20220806135744</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
