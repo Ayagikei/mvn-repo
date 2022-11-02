@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <groupId>fun.lifeupapp</groupId>
-    <artifactId>photopicker</artifactId>
-    <versioning>
-        <versions>
-            <version>2.0.4-SNAPSHOT</version>
-        </versions>
-        <lastUpdated>20221101162831</lastUpdated>
-    </versioning>
+  <groupId>fun.lifeupapp</groupId>
+  <artifactId>photopicker</artifactId>
+  <versioning>
+    <versions>
+      <version>2.0.4-SNAPSHOT</version>
+      <version>2.0.5-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20221102141419</lastUpdated>
+  </versioning>
 </metadata>
